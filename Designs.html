@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/images/UDlogo.png">
+    <title>Designs | Urban Designs</title>
+    <style>
+        *{
+        margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+         /* Nav bar */
+    .interface ul {
+            list-style-type: none;
+            overflow: hidden;
+            margin: 0;
+            background-color: rgba(0, 0, 0, 0.644);
+            padding: 0;
+        }
+        .interface li {
+            float: left;
+        }
+        .interface li a {
+            color: white;
+            padding: 30px;
+            text-decoration: none;
+            display: block;
+        }
+
+        li a:hover {
+            background-color: crimson;
+            color: white;
+        }li a.active {
+  background-color: red;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  color: white;
+}
+
+        #logo {
+            height: 80px;
+            float: left;
+        }
+         /* arctech_head */
+    .arctech_head{
+        width: 100%;
+        height: 400px;
+        background: url("/images/des1.jpg");  
+        background-attachment: fixed ;
+    }
+    .arctech_head h1{
+        color: white;
+            font-size: 100px;
+            text-align: center;
+            padding: 30px;
+            background-color: rgba(0, 0, 0, 0.596);
+    }
+     .arc_heading{
+            height: 120px;
+           
+        }
+        .arc_heading h1,p{
+            text-align: center;
+            padding: 20px; 
+        }
+
+        /* des_container */
+        .des_container .des_box{
+            width: 25%;
+            padding: 20px;
+            float: left;
+            height: 500px;
+            background-color: black ;
+        }
+        .des_box img{
+            width: 100%;
+        }
+        .des_box h1{
+            color: white;
+            text-align: center;
+        margin-top: 50%;
+
+        }
+
+        /* des_quote */
+        .des_quotebox{
+            width: 25%;
+            padding: 20px;
+            float: left;
+            height: 500px;
+            background-color: crimson ;
+        }
+        .des_quotebox img{
+            width: 100%;
+        }
+        .des_quotebox h1{ color: white;
+            text-align: center;
+        margin-top: 50%;
+    }
+
+    /* des_footer */
+
+    .des_footer h1,p{
+        color: crimson;
+        text-align: center;
+        padding: 20px;
+    }
+
+    @media only screen and (min-width:400px) and (max-width:800px)
+        {
+            .about_content{
+                height: 100px;
+            }
+            .interface #logo{
+            display: none;
+        }
+        .arctech_head h1{
+            font-size: 20px;
+        }
+        .arctech_head {
+            height: 100px;
+        }
+        .des_container .des_box{
+            width: 50%;
+        }
+        .des_quotebox{
+            width: 50%;
+
+        }
+
+    }
+    </style>
+</head>
+<body>
+    <!-- Nav bar -->
+ <div class="interface">
+    <ul>
+        <a href="#"><img src="/images/UDlogo.png" alt="URBAN DESIGNS" id="logo"></a>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="About_us.html">ABOUT US</a></li>
+        <li><a href="Architecture.html">ARCHITECTURE</a></li>
+        <li><a href="Interior.html">INTERIORS</a></li>
+        <li><a href="Designs.html" class="active">DESIGNS</a></li>
+        <li><a href="Furniture.html">FURNITURE</a></li>
+        <li><a href="Accessories.html">ACCESSORIES</a></li>
+        <li><a href="Contact_us.html">CONTACT US</a></li>
+    </ul>
+
+     <!-- arctech_head -->
+     <div class="arctech_head">
+        <h1>DESIGNS</h1>
+    </div>
+    
+    <!-- arc_heading -->
+    <div class="arc_heading">
+        <h1>Different Designs and Themes</h1>
+        <p>One of the Best Designs only on Urban Designs with different Color saturation and structure</p>
+    </div>
+    <div class="banners">
+        <img src="/images/banner1.png" >
+    </div>
+    <!-- des_container -->
+    <div class="des_container">
+        <div class="des_box"  style="background-color: rgb(168, 0, 112);">
+            <h1>Kitchen Designs<br><br>Impress your Family members</h1>
+        </div>
+
+        <div class="des_box">
+            <img src="/images/des2.jpg">
+        </div>
+        
+        <div class="des_box">
+            <img src="/images/des3.jpg">
+
+        </div>
+        
+        <div class="des_box">
+            <img src="/images/des4.jpg">
+        </div>
+    </div>
+     <div class="banners">
+        <img src="/images/banner6.png" >
+    </div>
+
+
+<!-- desquote -->
+<div class="des_quote">
+    <div class="des_quotebox" style="background-color: rgb(128, 0, 49);">
+        <h1>Office Designs<br><br>Create a different image in front of employees</h1>
+    </div>
+    <div class="des_quotebox">
+        <img src="/images/des5.jpg">
+    </div>
+    <div class="des_quotebox">
+        <img src="/images/des6.jpg">
+        
+    </div>
+    <div class="des_quotebox">
+        <img src="/images/des7.jpg">
+    </div>
+</div>
+<div class="banners">
+    <img src="/images/banner2.png" >
+</div>
+  <!-- des_container -->
+  <div class="des_container">
+    <div class="des_box" style="background-color: rgb(0, 124, 128);">
+        <h1>Living Room Designs<br><br>Design your dream room</h1>
+    </div>
+
+    <div class="des_box">
+        <img src="/images/liv1.jpg">
+    </div>
+    
+    <div class="des_box">
+        <img src="/images/liv2.jpg">
+
+    </div>
+    
+    <div class="des_box">
+        <img src="/images/liv3.jpg">
+    </div>
+</div> <div class="banners">
+    <img src="/images/banner4.png" >
+</div>
+
+<!-- desquote -->
+<div class="des_quote">
+    <div class="des_quotebox" style="background-color: rgb(128, 0, 0);">
+        <h1>Bathroom Designs<br><br>Feels every part like nature</h1>
+    </div>
+    <div class="des_quotebox">
+        <img src="/images/ba5.jpg">
+    </div>
+    <div class="des_quotebox">
+        <img src="/images/ba2.jpg">
+        
+    </div>
+    <div class="des_quotebox">
+        <img src="/images/ba3.jpg">
+    </div>
+</div>
+<!-- footer -->
+<div class="des_footer">
+    <h1>Fo Further Process<br>
+    Feel free to contact us<br>
+    Our Experts will guide you with mannual</h1>
+    <p>Phone no.: +91 1234567890</p>
+    <p>Gmail: abc@gmail.com</p>
+    <p>Address: Sector 69 ,Gurugram</p>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Urban Designs | A complete interior Solution
+    </title>
+    <script src="https://kit.fontawesome.com/2e3bb1227a.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="/images/UDlogo.png">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            box-sizing: border-box;
+        }
+
+        /* Nav bar */
+       .interface ul {
+            list-style-type: none;
+            overflow: hidden;
+            margin: 0;
+            background-color: rgba(0, 0, 0, 0.644);
+            padding: 0;
+          
+
+        }
+
+        .interface li {
+            float: left;
+
+
+        }
+
+        .interface li a {
+            color: white;
+            padding: 30px;
+            text-decoration: none;
+            display: block;
+
+
+        }
+
+        li a:hover {
+            background-color: crimson;
+            color: white;
+        }li a.active {
+            background-color: red;
+
+  color: white;
+}
+
+li a:hover:not(.active) {
+  color: white;
+}
+
+        #logo {
+            height: 80px;
+            float: left;
+        }
+
+        /* Interface */
+        .interface {
+            height: 720px;
+            width: 100%;
+            float: left;
+            background-size: cover;
+            background-image: url("/images/pexels-fabio-lange-6681821.jpg");
+            background-attachment: fixed;
+        }
+
+        .interface .text {
+            color: rgb(255, 255, 255);
+            margin-top: 100px;
+            padding: 50px;
+        }
+
+        .interface .text h1 {
+            color: rgb(255, 0, 0);
+            font-size: 50px;
+        }
+
+        #button {
+            color: white;
+            background-color: red;
+            padding: 30px;
+            text-decoration: none;
+            font-size: 20px;
+            margin-left: 50px;
+            border-radius: 10px;
+
+        }
+
+        #button:hover {
+            background-color: crimson;
+        }
+
+        /* content1 */
+        .content1 {
+            background-color: rgb(236, 232, 232);
+        }
+
+        .content1 h1 {
+            text-align: center;
+            font-size: 40px;
+            line-height: 3;
+
+        }
+
+        .content1 p {
+            margin-left: 300px;
+            margin-top: 20px;
+        }
+
+        .content1 .phrasetext {
+            float: left;
+            font-size: xx-large;
+            color: red;
+            margin-top: 50px;
+        }
+
+        /* animation */
+
+
+        
+        .container{
+   height:400px;
+   overflow:hidden;
+   width:50%;
+   float:left;
+
+   
+}
+.container img{
+   width:100%;
+   display:block;
+   transition:transform 2s;
+
+}
+   
+.container:hover img{
+   transform:scale(1.1);
+}
+        /* content2 */
+
+        .content2 .box1 {
+            float: left;
+            padding: 30px;
+            font-size: x-large;
+        }
+
+        .content2 h1 {
+            text-align: center;
+        }
+
+        /* content3 */
+        .content3{
+            width: 100%;
+            display: inline-block;
+        }
+        .content3 h1,
+        h3,
+        h4 {
+            line-height: 3;
+            text-align: center;
+            background-color: rgb(236, 232, 232);
+            color: black;
+        }
+
+
+        .box6 {
+            float: left;
+            width: 33%;
+            padding: 20px;
+            background-color: rgb(236, 232, 232);
+
+        }
+
+        .box6:hover {
+            box-shadow: 1px 1px 5px black;
+            background-color: white;
+        }
+
+        .box6 img {
+            width: 100%;
+        }
+
+        /* content4 */
+        .content4 h1 {
+            text-align: center;
+        }
+
+        .content4 .box7 {
+            float: left;
+            width: 33%;
+        }
+
+        /* content4*/
+
+        .content4 p {
+            font-weight: 1000;
+            text-align: center;
+            font-size: xx-large;
+            line-height: 3;
+        }
+
+        table {
+            margin: auto;
+        }
+
+        table th {
+            background-color: red;
+            color: white;
+        }
+
+        td,
+        th {
+            padding: 30px;
+        }
+
+        td:hover {
+            background-color: black;
+            color: white;
+        }
+
+        #button_edge {
+            padding: 20px;
+            background-color: red;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 8px;
+        }
+
+        #button_edge:hover {
+            box-shadow: 2px 2px 5px black;
+        }
+
+        /* content5 */
+        .content5 {
+            background-color: rgb(236, 232, 232);
+            text-align: center;
+        }
+
+        .content5 h1 {
+            padding: 30px;
+        }
+
+        /* content6 */
+        .content6 h1 {
+            line-height: 3;
+            text-align: center;
+        }
+
+        .content6 img {
+            margin-left: 25%;
+        }
+
+        /* blockpara*/
+        .blockpara {
+            width: 100%;
+            background-color: crimson;
+            overflow: hidden;
+        }
+
+        .blockpara p {
+
+            padding: 50px;
+            color: white;
+            float: left;
+            font-size: 15px;
+
+        }
+
+        .blockpara p:hover {
+            font-size: 20px;
+
+        }
+
+        /* content7 */
+        .content7text {
+            width: 40%;
+            float: left;
+            color: crimson;
+            height: 542px;
+        }
+       
+
+        
+
+       
+
+        /* footer */
+        
+        .footer  .foot1{
+            float: left;
+            width: 33.3%;
+            background-color: crimson;
+            color: white;
+            padding-top: 80px;
+            padding-left: 40px;
+            height: 500px;
+        }
+        .footerlist ul { 
+            list-style-type: none;
+            overflow: hidden;
+
+
+        }.footerlist li {
+            padding: 10px;
+        display: inline-block;
+
+        }
+       .footerlist ul li a{
+        text-decoration: none;
+        color: white;
+
+
+       }
+       .footerlist ul li a:hover{
+        color: black;
+
+       }
+
+
+       @media only screen and (min-width:400px) and (max-width:800px) {
+        .interface #logo{
+            display: none;
+        }
+      .content1 h1{
+        font-size: 20px;
+      }
+      .content1 p{
+        margin-left: 10px;
+        text-align: center;
+      }
+      .container {
+        width: 100%;
+      }
+      .content2 .box1,
+        .box2,
+        .box3,
+        .box4,
+        .box5 {
+            width: 100%;
+        }
+
+        .content3 .box6{
+            width: 100%;
+        }
+        .content7text{
+            width: 100%;
+        }
+      .footer .foot1{
+        width: 100%;
+        text-align: center;
+      }
+
+
+       }
+    </style>
+</head>
+
+<body>
+
+    <!-- Nav bar -->
+    <div class="interface">
+        <ul>
+            <a href="#"><img src="/images/UDlogo.png" alt="URBAN DESIGNS" id="logo"></a>
+            <li><a href="index.html" class="active">HOME</a></li>
+            <li><a href="About_us.html">ABOUT US</a></li>
+            <li><a href="Architecture.html">ARCHITECTURE</a></li>
+            <li><a href="Interior.html">INTERIORS</a></li>
+            <li><a href="Designs.html">DESIGNS</a></li>
+            <li><a href="Furniture.html">FURNITURE</a></li>
+            <li><a href="Accessories.html">ACCESSORIES</a></li>
+            <li><a href="Contact_us.html">CONTACT US</a></li>
+        </ul>
+
+
+        <!-- Interface -->
+        <div class="text">
+            <h1>URBAN DESIGNS</h1>
+            <p>"A complete interior Solution"</p><br>
+            <p>A small Journey to make your dream place with URBAN DESIGNS.<br>Decorate your Home,Office with styles and
+                antiques. </p><br>
+        </div>
+        <p><a href="Contact_us.html" id="button">Book Free Design Consultation</a></p>
+    </div>
+
+
+    <!-- content1 -->
+    <div class="content1">
+        <h1>URBAN DESIGNS FOR INTERIOR SOLUTION</h1>
+        <p style="font-size: larger;">Whether it's a dream Room or your entire home, enjoy end-to-end solutions from
+            designs to installation.</p>
+
+        <div class="phrasetext">
+            <p>Your Dream Home Is Just A Click Away!</p><br>
+            <p><a href="Contact_us.html" id="button">Consult Online Now</a></p>
+
+        </div>
+        <div class="phraseimg">
+            <img src="/images/pexels-hannah-nelson-1456951-removebg-preview.png" alt="family" style="height:300px;">
+
+        </div>
+    </div>
+    <!-- animation -->
+    <div class="container">
+        <img src="/images/room2.jpg">
+    </div>
+    <div class="container">
+        <img src="/images/room3.jpg">
+    </div>
+
+    <!-- content2 -->
+    <div class="content2" style="height: 200px;">
+        <h1 style="margin-top: 50px;">Why Choose Us</h1>
+        <div class="box1">
+            <i class="fa-solid fa-hand-holding-dollar"></i><br>
+            Price Match Guarantee
+        </div>
+        <div class="box1">
+            <i class="fa-solid fa-calendar"></i><br>
+            45 days Move-in Guarantee
+        </div>
+        <div class="box1">
+            <i class="fa-solid fa-house-circle-check"></i><br>
+            10 Years Warranty
+        </div>
+        <div class="box1">
+            <i class="fa-solid fa-clipboard-check"></i><br>
+            100 Quality checks
+        </div>
+        <div class="box1">
+            <i class="fa-solid fa-person-circle-check"></i><br>
+            Free Consultation
+        </div>
+    </div>
+
+
+    <!-- content3 -->
+    <div class="content3">
+      <div class="boxyz" >
+        <h1>Preview of Your Dream Place</h1>
+        <h3>Take a Tour that we have designed</h3>
+      </div>
+        <div class="box6">
+            <img src="/images/box6.jpg" alt="img">
+        </div>
+        <div class="box6">
+            <img src="/images/box7.jpg" alt="img">
+
+        </div>
+        <div class="box6">
+            <img src="/images/box8.jpg" alt="img">
+
+        </div>
+    </div>
+
+
+    <!-- content4 -->
+
+    <div class="content4">
+        <p>
+            Urban Designs Edge
+        </p><br>
+        <table>
+            <tr>
+                <th colspan="2" style="font-size: 30px;">Urban Designs Experience</th>
+                <th>Typical Experience</th>
+            </tr>
+            <tr>
+                <td>PRICE</td>
+                <td>No Hidden Cost</td>
+                <td>45% hike between first quote & final cost</td>
+            </tr>
+            <tr>
+                <td>CONVENIENCE</td>
+                <td>One-stop shop for all interior needs</td>
+                <td>Approx 27 market trips to find everything</td>
+            </tr>
+            <tr>
+                <td>DESIGN</td>
+                <td>Personalised designs with 3D visuals</td>
+                <td>Cookie-cutter designs with 2D visuals</td>
+            </tr>
+            <tr>
+                <td>TIMELINES</td>
+                <td>45-day installation</td>
+                <td>Unreliable timelines</td>
+            </tr>
+            <tr>
+                <td>QUALITY</td>
+                <td>Branded materials,146 quality checks</td>
+                <td>Inferior materials used to cut costs,No quality checks</td>
+            </tr>
+
+        </table>
+        <p><a href="Contact_us.html" id="button_edge">Talk to our designers</a></p>
+    </div>
+
+    <!-- content5 -->
+    <div class="content5">
+        <h1>Design Your Kitchen Instantly</h1>
+        <p>Choose a kitchen shape, customise the design, and get a cost estimate.</p>
+        <div class="box6">
+            <img src="/images/kit1.jpg" alt="img">
+            <h4>Kitchen Design Code #1329</h4>
+        </div>
+        <div class="box6">
+            <img src="/images/kit2.jpg" alt="img">
+            <h4>Kitchen Design Code #1330</h4>
+        </div>
+        <div class="box6">
+            <img src="/images/kit4.jpg" alt="img">
+            <h4>Kitchen Design Code #1320</h4>
+        </div>
+    </div>
+    </div>
+
+    <!-- content6 -->
+
+    <div class="content6">
+        <h1>It's Simpler that you think.</h1>
+        <img src="/images/Meet the Designer.png" style="width: 50%;">
+    </div>
+
+    <!-- blockpara -->
+    <div class="blockpara">
+        <p>300+ Expert Designers</p>
+        <p>2 home Designed Every Hour</p>
+        <p>More than 2 lac Products</p>
+        <p>50+ cities and 4 Countries</p>
+        <p>Different Styles </p>
+    </div>
+
+    <!-- content7 -->
+    <div class="content7">
+        <div class="content7text ">
+            <div class="buttoncontent">
+                <h1> See. Touch. Experience.</h1>
+                <p>Come to our Experience Centre and get a look and feel of what we do! </p>
+            </div>
+
+       
+
+        </div>
+        <div class="content7text">
+            <img src="/images/outer.jpg" alt="family" >
+        </div>
+    </div>
+  
+    <!-- footer -->
+    <div class="footer">
+        <div class="foot1">
+            <h1>About Us</h1><br>
+            <p>Urban Designs, a website where decorators,designers and client's have clear understanding about interior designing. Our website will assist from scratch by experts that will you to design your dream home.Urban Designs is user friendly and our experts will guide you.If you are planning to make your dream house, Contact us Hurry!.Urban Designs provide you the best suitable price with discounts.Our website will make every step possible with full zeal and hardwork.With more than 10000+ customer , Urban Designs is growing in the sector of interior designing, Your can decorate your home,office,lawn etc. with Urban Designs experts.Contact us for free and make your home a real Heaven </p>
+        </div>
+        <div class="foot1 footerlist">
+            <ul >
+                <i class="fa-solid fa-house-user"></i><li><a href="index.html">HOME</a></li>
+                <i class="fa-solid fa-address-card"></i><li><a href="About_us.html">ABOUT US</a></li>
+                <i class="fa-solid fa-building"></i><li><a href="Architecture.html">ARCHITECTURE</a></li>
+                </i>
+                <i class="fa-solid fa-laptop-file"></i><li><a href="Interior.html">INTERIORS</a></li>
+                <i class="fa-solid fa-compass-drafting"></i><li><a href="Designs.html">DESIGNS</a></li>
+                <i class="fa-solid fa-couch"></i><li><a href="Furniture.html">FURNITURE</a></li>
+                <i class="fa-solid fa-store"></i></i> <li><a href="Accessories.html">ACCESSORIES</a></li>
+            </ul>
+            <img src="/images/URBAN_DESIGNS-removebg-preview.png" style="width: 50%;">
+        </div>
+        <div class="foot1">
+            <h1>Contact Us</h1>
+            <ul>
+                <i class="fa-solid fa-phone"></i> <li>Phone number: +91 1234567890</li>    
+                <i class="fa-solid fa-envelope"></i><li>Gmail: abc@gmail.com</li>    
+                <i class="fa-solid fa-map-location-dot"></i>
+                <li>Address: Sector 49 , Gurugram</li>    
+            </ul>
+            <img src="/images/men-removebg-preview.png">
+        </div>
+    </div>
+</body>
+</html>

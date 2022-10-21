@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARCHITECTURE | Urban Designs</title> <script src="https://kit.fontawesome.com/2e3bb1227a.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="/images/UDlogo.png">
+<style>
+    *{
+        margin: 0;
+    padding: 0;
+    }
+    /* arctech_head */
+    .arctech_head{
+        width: 100%;
+        height: 400px;
+        background: url("/images/arctech.jpg");  
+        background-attachment: fixed;
+    }
+    .arctech_head h1{
+        color: white;
+            font-size: 100px;
+            text-align: center;
+            padding: 30px;
+            background-color: rgba(0, 0, 0, 0.685);
+    }
+    /* Nav bar */
+    .interface ul {
+            list-style-type: none;
+            overflow: hidden;
+            margin: 0;
+            background-color: rgba(0, 0, 0, 0.644);
+            padding: 0;
+        }
+        .interface li {
+            float: left;
+        }
+        .interface li a {
+            color: white;
+            padding: 30px;
+            text-decoration: none;
+            display: block;
+        }
+        li a:hover:not(.active) {
+  color: white;
+}
+        li a:hover {
+            background-color: crimson;
+            color: white;
+        }
+        li a.active {
+  background-color: red;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  color: white;
+}
+
+        #logo {
+            height: 80px;
+            float: left;
+        }
+
+        /* arctech_block */
+
+        .arctech_block{
+            width: 30%;
+            padding: 20px;
+            float: left;
+        }
+        .arctech_block img{
+            width: 100%;
+            background-color: rgb(236, 232, 232);
+            height: 600px;
+        }
+        .arctech_block :hover {
+            box-shadow: 1px 1px 5px black;
+            background-color: white;
+        }
+        .arctech_block h2{
+        text-align: center;
+            color: crimson;
+        }
+        /* arc_heading */
+        .arc_heading{
+            height: 120px;
+           
+        }
+        .arc_heading h1,p{
+            text-align: center;
+            padding: 20px; 
+        }
+             /* animation */
+
+    .container{
+   height:400px;
+   overflow:hidden;
+   width:50%;
+   float:left;
+
+   
+}
+.container img{
+   width:100%;
+   display:block;
+   transition:transform 2s;
+
+
+}
+   
+.container:hover img{
+   transform:scale(1.1);
+}
+ /* content1 */
+ .content1_Extra {
+            background-color: rgb(236, 232, 232);
+        }
+
+        .content1_Extra h1 {
+            text-align: center;
+            font-size: 40px;
+            line-height: 3;
+
+        }
+
+        .content1_Extra p {
+            margin-left: 300px;
+            margin-top: 20px;
+        }
+
+        .content1_Extra .phrasetext_Extra {
+            float: left;
+            font-size: xx-large;
+            color: red;
+            margin-top: 50px;
+        }
+        .content1_Extra .phrasetext_Extra a{
+            background-color: crimson;
+            text-decoration: none;
+            color: white;
+            padding: 20px;
+        }
+
+/* footer */
+ /* footer */
+ .footer_about h1{
+            color: crimson;
+            padding: 30px;
+
+        }
+        .footer_about p,h1{
+            margin: auto;
+            padding: 30px;
+        } 
+        .footer_about p:hover{
+            background-color: crimson;
+        }
+        @media only screen and (min-width:400px) and (max-width:800px)
+        {
+            .about_content{
+                height: 100px;
+            }
+            .interface #logo{
+            display: none;
+        }
+        .arctech_head h1{
+            font-size: 20px;
+        }
+        .arctech_head {
+            height: 100px;
+        }
+
+        .arctech_block{
+            width: 100%;
+        }
+        .container{
+            width: 100%;
+        }
+        .content1_Extra p{
+            margin-left: 10px;
+        }
+
+        }
+</style>
+
+</head>
+
+<body>
+ <!-- Nav bar -->
+ <div class="interface">
+    <ul>
+        <a href="#"><img src="/images/UDlogo.png" alt="URBAN DESIGNS" id="logo"></a>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="About_us.html">ABOUT US</a></li>
+        <li><a href="Architecture.html" class="active">ARCHITECTURE</a></li>
+        <li><a href="Interior.html">INTERIORS</a></li>
+        <li><a href="Designs.html">DESIGNS</a></li>
+        <li><a href="Furniture.html">FURNITURE</a></li>
+        <li><a href="Accessories.html">ACCESSORIES</a></li>
+        <li><a href="Contact_us.html">CONTACT US</a></li>
+    </ul>
+
+    <!-- arctech_head -->
+    <div class="arctech_head">
+        <h1>ARCHITECTURE</h1>
+    </div>
+    <!-- arc_heading -->
+    <div class="arc_heading">
+        <h1>Choose the best Architecture for your Home,Office</h1>
+        <p>With our Expert's quidance,You can choose what is best suitable for your Home,Office</p>
+    </div>
+
+    <div class="arctech_maincontent">
+        <div class="arctech_block">
+            <img src="/images/ar1.jpg">
+            <h2>Code Arc#11100</h2>
+        </div>
+        <div class="arctech_block">
+            <img src="/images/ar2.jpg">
+            <h2>Code Arc#11101</h2>
+        </div>
+        <div class="arctech_block">
+            <img src="/images/ar3.jpg">
+            <h2>Code Arc#11102</h2>
+
+        </div>
+        <div class="banners">
+            <img src="/images/banner1.png" >
+        </div>
+        <!-- animation -->
+     <div class="container">
+        <img src="/images/ar16.jpg">
+        
+    </div>
+    <div class="container">
+        <img src="/images/ar17.jpg">
+    </div>
+        <div class="arctech_block">
+            <img src="/images/ar4.jpg">
+            <h2>Code Arc#11103</h2>
+
+        </div>
+        <div class="arctech_block">
+            <img src="/images/ar5.jpg">
+            <h2>Code Arc#11104</h2>
+
+        </div>
+        <div class="arctech_block">
+            <img src="/images/ar6.jpg">
+            <h2>Code Arc#11105</h2>
+
+        </div>
+       
+    </div>
+    <div class="banners">
+        <img src="/images/banner2.png">
+    </div>
+    
+        <!-- animation -->
+     <div class="container">
+        <img src="/images/ar18.jpg">
+    </div>
+    <div class="container">
+        <img src="/images/ar19.jpg">
+    </div>
+        <div class="arctech_block">
+            <img src="/images/ar7.jpg">
+            <h2>Code Arc#11106</h2>
+
+        </div>
+        <div class="arctech_block">
+            <img src="/images/ar8.jpg">
+            <h2>Code Arc#11107</h2>
+
+        </div>
+        <div class="arctech_block">
+            <img src="/images/ar9.jpg">
+            <h2>Code Arc#11108</h2>
+
+        </div>
+        <div class="banners">
+            <img src="/images/banner3.png" >
+        </div>
+        <!-- animation -->
+     <div class="container">
+        <img src="/images/ar20.jpg">
+    </div>
+    <div class="container">
+        <img src="/images/ar21.jpg">
+    </div>
+        <div class="arctech_block">
+            <img src="/images/ar10.jpg">
+            <h2>Code Arc#11109</h2>
+
+        </div>
+        <div class="arctech_block">
+            <img src="/images/ar11.jpg">
+            <h2>Code Arc#11110</h2>
+
+        </div>
+        <div class="arctech_block">
+            <img src="/images/ar12.jpg">
+            <h2>Code Arc#11111</h2>
+
+        </div>
+        <div class="banners">
+            <img src="/images/banner4.png">
+        </div>
+
+        <!-- animation -->
+     <div class="container">
+        <img src="/images/ar22.jpg">
+    </div>
+    <div class="container">
+        <img src="/images/ar23.jpg">
+    </div>
+        <div class="arctech_block">
+            <img src="/images/ar13.jpg">
+            <h2>Code Arc#11112</h2>
+
+        </div>
+        <div class="arctech_block">
+            <img src="/images/ar14.jpg">
+            <h2>Code Arc#11113</h2>
+
+        </div>
+        <div class="arctech_block">
+
+            <img src="/images/ar15.jpg">
+            <h2>Code Arc#11114</h2>
+
+        </div>
+
+    </div>
+    <div class="banners">
+        <img src="/images/banner5.png">
+    </div>
+    
+
+     <!-- animation -->
+     <div class="container">
+        <img src="/images/ar24.jpg">
+    </div>
+    <div class="container">
+        <img src="/images/ar25.jpg">
+    </div>
+
+     <!-- content1_Extra -->
+     <div class="content1_Extra">
+        <h1>URBAN DESIGNS FOR INTERIOR SOLUTION</h1>
+        <p style="font-size: larger;">Whether it's a dream Room or your entire home, enjoy end-to-end solutions from
+            designs to installation.</p>
+
+        <div class="phrasetext_Extra">
+            <p>Your Dream Home Is Just A Click Away!</p><br>
+            <p><a href="Contact_us.html" id="button">Consult Online Now</a></p>
+
+        </div>
+        <div class="phraseimg_Extra">
+            <img src="/images/pexels-hannah-nelson-1456951-removebg-preview.png" alt="family" style="height:300px;">
+
+        </div>
+    <!-- footer -->
+
+    <div class="footer_about">
+        <h1>Contact us Now!</h1>
+        <p>Phone no.: +91 1234567890</p>
+        <p>Gmail: abc@gmail.com</p>
+        <p>Address: Sector 69 ,Gurugram</p>
+    </div>
+</body>
+</html>
