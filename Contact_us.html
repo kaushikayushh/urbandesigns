@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="/images/UDlogo.png">
+    <link rel="icon" href="images/UDlogo.png">
     <title>Contact Us | Urban Designs</title>
 
     <style>
@@ -57,7 +57,7 @@ li a:hover:not(.active) {
         .about_content
         {   height: 400px;
             width: 100%;
-            background:url("/images/cont1.jpg");
+            background:url("images/cont1.jpg");
             background-attachment: fixed;
         }
         .about_content h1{
@@ -142,7 +142,7 @@ transition:all 0.3s ease;
 }
 /* fam */
 .fam{
-    background: url("/images/family.jpg");
+    background: url("images/family.jpg");
     height: 400px;
     background-repeat: no-repeat;
 }
@@ -153,23 +153,34 @@ background-color: rgba(0, 0, 0, 0.589);
 padding: 10px;
 }
 
-@media only screen and (min-width:400px) and (max-width:800px)
+@media screen and (max-width:450px) 
+
         {
             .about_content{
                 height: 100px;
             }
-            .interface #logo{
-            display: none;
-        }
+            .form .input_field {
+                width: auto;
+            }
+         .about_us_para{
+            width: 100vw;
+         }
         .about_content h1{
-            font-size: 20px;
+            font-size: 40px;
         }
         .about_content {
             height: 100px;
         }
         .form{
-            width: 75%;
+            width: 100vw;
         }
+        #ff{
+            display: none;
+        }
+        .fam{
+            height: auto;
+        }
+       
     }
    
     </style>
@@ -178,7 +189,7 @@ padding: 10px;
     <!-- Nav bar -->
     <div class="interface">
         <ul>
-            <a href="#"><img src="/images/UDlogo.png" alt="URBAN DESIGNS" id="logo"></a>
+            <a href="#"><img src="images/UDlogo.png" alt="URBAN DESIGNS" id="logo"></a>
             <li><a href="index.html">HOME</a></li>
             <li><a href="About_us.html">ABOUT US</a></li>
             <li><a href="Architecture.html">ARCHITECTURE</a></li>
@@ -235,13 +246,13 @@ padding: 10px;
         <h1>CONTACT US<br>
         Feel free,We Are Family
     Our Experts will guide you </h1>
-    <p>Phone no.: +91 1234567890</p>
-    <p>Gmail: abc@gmail.com</p>
-    <p>Address: Sector 69 ,Gurugram</p>
+    <p>Phone no.: +91 8171206787</p>
+    <p>Gmail: kaushik.ak8171@gmail.com</p>
+    <p>Address: main market,bijnor</p>
      <!-- Nav bar -->
-     <div class="interface">
+     <div class="interface" id="ff">
         <ul>
-            <a href="#"><img src="/images/UDlogo.png" alt="URBAN DESIGNS" id="logo"></a>
+            <a href="#"><img src="images/UDlogo.png" alt="URBAN DESIGNS" id="logo"></a>
             <li><a href="index.html">HOME</a></li>
             <li><a href="About_us.html">ABOUT US</a></li>
             <li><a href="Architecture.html">ARCHITECTURE</a></li>
